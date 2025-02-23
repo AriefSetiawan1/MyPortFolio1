@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <title>Portfolio</title>
+          <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+          <link rel="stylesheet" href="style.css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+     </head>
+     <body>
+          <section class="flex justify-center h-screen items-center bg-sky-700 relative" id="home">
+               <div class="static bg-opacity-90 flex flex-col items-center justify-center text-white px-6">
+                    <h2 class="text-3xl font-bold">Hello, I'm Arief</h2>
+                    <p class="text-lg mt-2">Undergraduate Information Systems student at Telkom University</p>
+                    <div class="flex mt-4 space-x-6 text-2xl">
+                         <a href="https://github.com/AriefSetiawan1" class="hover:text-gray-300 fab fa-github"></a>
+                         <a href="https://www.linkedin.com/in/arief-setiawan-b05a222b9/" class="hover:text-gray-300 fab fa-linkedin"></a>
+                         <a href="https://www.instagram.com/ariefstwn._/" class="hover:text-gray-300 fab fa-instagram"></a>
+                    </div>
+               </div>
+               <div class="flex">
+                    <img src="assests/Profile.jpg" alt="Profile" class="size-110 rounded-full border-4 border-white" />
+               </div>
+          </section>
+          <section id="about" class="py-16 bg-white text-center px-6">
+               <h2 class="text-2xl font-bold mb-4">Tentang Saya</h2>
+               <p class="max-w-4xl mx-auto text-gray-700">
+                    Saya adalah mahasiswa tahun kedua di Telkom University, jurusan Sistem Informasi, yang memiliki semangat belajar dan berkembang di dunia teknologi. Saya memiliki keahlian dalam
+                    <strong>teamwork</strong>, <strong>problem-solving</strong>, <strong>communication</strong>, dan <strong>adaptability</strong>.
+               </p>
+               <h3 class="text-xl font-bold mt-6">Keahlian Saya</h3>
+               <div class="flex flex-wrap justify-center mt-4 gap-3">
+                    <span class="bg-blue-500 text-white px-4 py-2 rounded-full">HTML</span>
+                    <span class="bg-blue-500 text-white px-4 py-2 rounded-full">CSS</span>
+                    <span class="bg-blue-500 text-white px-4 py-2 rounded-full">JavaScript</span>
+                    <span class="bg-blue-500 text-white px-4 py-2 rounded-full">React JS</span>
+                    <span class="bg-blue-500 text-white px-4 py-2 rounded-full">Python</span>
+                    <span class="bg-blue-500 text-white px-4 py-2 rounded-full">Database (MySQL)</span>
+               </div>
+          </section>
+          <section id="education" class="py-16 bg-gray-50 text-center px-6">
+               <h2 class="text-2xl font-bold mb-6">Educational Background</h2>
+               <div class="flex flex-wrap justify-center gap-6">
+                    <div class="bg-white shadow-md rounded-lg p-6 w-80 text-center">
+                         <h3 class="text-lg font-bold">SMP</h3>
+                         <p class="text-gray-700">SMPN 2 DEMAK</p>
+                         <p class="text-gray-500">2017-2020</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-lg p-6 w-80 text-center">
+                         <h3 class="text-lg font-bold">SMK</h3>
+                         <p class="text-gray-700">SMK RADEN UMAR SAID KUDUS</p>
+                         <p class="text-gray-500">2020-2023</p>
+                    </div>
+                    <div class="bg-white shadow-md rounded-lg p-6 w-80 text-center">
+                         <h3 class="text-lg font-bold">Universitas</h3>
+                         <p class="text-gray-700">Universitas Telkom</p>
+                         <p class="text-gray-500">2023-Saat Ini</p>
+                    </div>
+               </div>
+          </section>
+          <section id="projects" class="py-16 bg-gray-100 text-center px-6">
+               <h2 class="text-2xl font-bold mb-6">Proyek Saya</h2>
+               <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                    <div class="bg-white shadow-md rounded-lg p-6">
+                         <h3 class="text-lg font-bold">SunsetSnack</h3>
+                         <p class="text-gray-600 mt-2">Website penjualan makanan surplus dengan banyak merchant, menggunakan React JS dan Tailwind CSS.</p>
+                         <a href="#" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Lihat Detail</a>
+                    </div>
+                    <div class="bg-white shadow-md rounded-lg p-6">
+                         <h3 class="text-lg font-bold">PetAny</h3>
+                         <p class="text-gray-600 mt-2">website manajemen klinik hewan yang memberikan manfaat bagi klinik hewan dan pemilik hewan peliharaan.</p>
+                         <a href="#" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Lihat Detail</a>
+                    </div>
+               </div>
+          </section>
+     </body>
+</html>
